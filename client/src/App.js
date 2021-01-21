@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Main from './main';
+
 
 function App() {
-  return (
-    <div>
-      HELLO WORLD!!!
-    </div>
-  );
+    return (
+       <div >
+       <Main/>
+        </div>
+    );
 }
 
 export default App;
